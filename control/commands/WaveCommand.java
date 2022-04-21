@@ -17,8 +17,7 @@ public class WaveCommand extends Command {
 
 	@Override
 	public boolean execute(Game game) {
-		game.wave_move();
-		return true;
+		
 	}
 
 }

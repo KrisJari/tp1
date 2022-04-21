@@ -79,18 +79,6 @@ public class GameObjectContainer {
 	}
       
 	
-	public void mover(Game game) {
-		for(int i = game.getVisibility(); i >=0; i--) {
-			for(int j = game.getRoadWidth()-1; j >=0; j--) {
-              GameObject obj =  isInPosition(i,j);
-              if(obj!=null) {
-           
-              obj.AumentarX();
-			}
-			}
-		}
-	}
-	
 	public void recorrerUpdate()
 	{
 		for(GameObject obj : gameobjects )

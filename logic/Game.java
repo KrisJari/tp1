@@ -317,10 +317,6 @@ public boolean isFinished() {
 		container.add(o);
 
 	}
-	public void wave_move()
-	{
-		container.mover(this);
-	}
 
 	public void eliminateCol() {
 		int colUlt = getVisibility() + player.getY();
